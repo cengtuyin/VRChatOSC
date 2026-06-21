@@ -1,0 +1,40 @@
+[
+    {
+        "name": "VSCode",
+        "from": "^(.*?)\\s*?-\\s*?(.*?)?\\s*?-\\s+(.*)$",
+        "to": "[💻]USING: VSCode\n- PROJECT: $2\n- EDIT: $1",
+        "rule": {
+            "$3": "Visual Studio Code"
+        }
+    },
+    {
+        "name": "Edge",
+        "from": "^(.*?)(?: 和另外 \\d+ 个页面)? - 个人 - Microsoft​ Edge$",
+        "to": "[💻]USING: Edge\n- VIEW: $1",
+        "rule": {}
+    },
+    {
+        "name": "VRCX-地雷版",
+        "from": "^VRCX-Jirai \\d{4}.\\d{1,2}.\\d{1,2}$",
+        "to": "[💻]USING: VRCX ( 地雷版 )",
+        "rule": {}
+    },
+    {
+        "name": "Excel",
+        "from": "^Microsoft Excel - (.*)$",
+        "to": "[💻]USING: Excel\n- VIEW: $1",
+        "rule": {}
+    },
+    {
+        "name": "Word",
+        "from": "^(.*) - Microsoft Word$",
+        "to": "[💻]USING: Word\n- VIEW: $1",
+        "rule": {}
+    },
+    {
+        "name": "PPT",
+        "from": "^(.*) - Microsoft PowerPoint",
+        "to": "[💻]USING: PPT\n- VIEW: $1",
+        "rule": {}
+    }
+]

@@ -1,0 +1,31 @@
+{
+    "usenetworkdevice": true,
+    "vrchatoscport": 9000,
+    "clock": 8,
+    "typingtimeout": 60,
+    "applicationheadtext": "[💻]USING: ",
+    "messagebackground": false,
+    "autooffcomputer": false,
+    "autooffcomputertimeout": 7200,
+    "phone": {
+        "status": true,
+        "applicationheadtext": "[📱]USING: ",
+        "batteryheadtext": "BATTERY: ",
+        "batteryheadtextpower": "BATTERY: ⚡️"
+    },
+    "music": {
+        "status": true,
+        "headtext": "",
+        "music_delimiter": "@",
+        "showartist": true
+    },
+    "iot": {
+        "status": true,
+        "port": 51851
+    },
+    "AFK": {
+        "status": true,
+        "timeout": 3600,
+        "clock": 30
+    }
+}
